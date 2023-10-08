@@ -8,7 +8,7 @@ namespace FullChaosTargets
 
      public class Plugin : Plugin<Config>
      {
-          public override string Name => "ChaosTargets";
+          public override string Name => "RemoveChaosTargets";
           public override string Prefix => Name;
           public override string Author => "Miki_hero";
           public override Version Version { get; } = new(1, 0, 0, 0);
