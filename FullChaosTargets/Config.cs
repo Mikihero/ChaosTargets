@@ -6,6 +6,5 @@ namespace FullChaosTargets
      {
           public bool IsEnabled { get; set; } = true;
           public bool Debug { get; set; } = false;
-          public ushort ChaosPercent { get; set; } = 100;
      }
 }
