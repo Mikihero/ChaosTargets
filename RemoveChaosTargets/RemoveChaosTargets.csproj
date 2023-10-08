@@ -9,6 +9,10 @@
 		<RootNamespace>FullChaosTargets</RootNamespace>
 	</PropertyGroup>
 
+	<PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+	  <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+
 	<ItemGroup>
 		<PackageReference Include="EXILED" Version="8.2.1" />
 	</ItemGroup>
